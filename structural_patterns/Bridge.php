@@ -70,8 +70,8 @@ class Android implements Platform
 
 $android = new Android();
 $videoPlayer = new VideoPlayer($android);
-print $videoPlayer->getName()."\r\n";
+echo $videoPlayer->getName()."\r\n";
 
 $ios = new IOS();
 $card = new Card($ios);
-print $card->getName();
+echo $card->getName();

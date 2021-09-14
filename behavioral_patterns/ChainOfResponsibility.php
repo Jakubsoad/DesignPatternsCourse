@@ -67,4 +67,4 @@ $creditCard = new CreditCard();
 $paypal->setSuccessor($bankTransfer);
 $bankTransfer->setSuccessor($creditCard);
 
-print $paypal->processPayment(80);
+echo $paypal->processPayment(80);

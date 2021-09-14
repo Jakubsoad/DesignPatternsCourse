@@ -48,4 +48,4 @@ class OrderFacade
 }
 
 $order = new OrderFacade();
-print $order->prepareOrder();
+echo $order->prepareOrder();

@@ -47,5 +47,5 @@ $chatMediator = new ChatMediatorClass();
 $user1 = new User('Joe', $chatMediator);
 $user2 = new User('Paul', $chatMediator);
 
-print $user1->send('Hello').PHP_EOL;
-print $user2->send('Hi :)');
+echo $user1->send('Hello').PHP_EOL;
+echo $user2->send('Hi :)');

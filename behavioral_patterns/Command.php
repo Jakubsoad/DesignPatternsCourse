@@ -61,5 +61,5 @@ $turnOnCommand = new TurnOnEngineCommand($engine);
 $turnOffCommand = new TurnOffEngineCommand($engine);
 $switcher = new EngineSwitcher();
 
-print $switcher->useSwitch($turnOnCommand);
-print $switcher->useSwitch($turnOffCommand);
+echo $switcher->useSwitch($turnOnCommand);
+echo $switcher->useSwitch($turnOffCommand);

@@ -51,6 +51,6 @@ $pizza = (new PizzaBuilder('Small'))
     ->addExtraCheese()
     ->build();
 
-print '<pre>';
-print_r($pizza);
-print '</pre>';
+echo '<pre>';
+echo_r($pizza);
+echo '</pre>';

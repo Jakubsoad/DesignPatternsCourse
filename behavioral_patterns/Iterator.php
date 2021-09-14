@@ -87,12 +87,12 @@ $menuItems->add($item3);
 
 $menuIterator = new MenuItemsIterator($menuItems);
 
-print 'Current '.$menuIterator->current().PHP_EOL;
-print 'Key '. $menuIterator->key().PHP_EOL;
-print 'Next '. $menuIterator->next().PHP_EOL;
-print 'Current '.$menuIterator->current().PHP_EOL;
-print 'Next '. $menuIterator->next().PHP_EOL;
-print 'Next '. $menuIterator->next().PHP_EOL;
-print 'Current '.$menuIterator->current().PHP_EOL;
-print 'Rewind '.$menuIterator->rewind().PHP_EOL;
-print 'Current '.$menuIterator->current().PHP_EOL;
+echo 'Current '.$menuIterator->current().PHP_EOL;
+echo 'Key '. $menuIterator->key().PHP_EOL;
+echo 'Next '. $menuIterator->next().PHP_EOL;
+echo 'Current '.$menuIterator->current().PHP_EOL;
+echo 'Next '. $menuIterator->next().PHP_EOL;
+echo 'Next '. $menuIterator->next().PHP_EOL;
+echo 'Current '.$menuIterator->current().PHP_EOL;
+echo 'Rewind '.$menuIterator->rewind().PHP_EOL;
+echo 'Current '.$menuIterator->current().PHP_EOL;

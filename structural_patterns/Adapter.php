@@ -58,6 +58,6 @@ class ProductAdapter
 
 $product = new Product('123781273987129837198273', 120);
 $productAdapter = new ProductAdapter($product);
-print $productAdapter->displaySku();
-print "\n";
-print $productAdapter->displayPrice();
+echo $productAdapter->displaySku();
+echo "\n";
+echo $productAdapter->displayPrice();

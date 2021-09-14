@@ -61,5 +61,5 @@ class HeaderDecorator implements WindowDecorator
 $window = new BasicWindow();
 $window = new ScrollbarDecorator($window);
 $window = new HeaderDecorator($window);
-print $window->renderWindow();
+echo $window->renderWindow();
 
